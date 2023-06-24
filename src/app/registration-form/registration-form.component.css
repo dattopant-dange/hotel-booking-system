@@ -1,0 +1,102 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #eaece8;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+select {
+  appearance: none;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.stored-data {
+  margin-top: 40px;
+}
+
+.stored-item {
+  margin-bottom: 20px;
+}
+
+.btn-remove {
+  margin-top: 10px;
+}
+
+.custom-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.c-details {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 30px;
+}
+
+.amenities-container {
+  display: flex;
+  align-items: center;
+}
+
+.amenities-container label {
+  margin-right: 20px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.hi{
+  height: 10px;
+}
